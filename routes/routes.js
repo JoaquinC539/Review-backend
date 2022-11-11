@@ -1,11 +1,11 @@
 'use strict'
 const express=require('express');
 //Import controller for methods
-const ProjectController=require("../controllers/project");
+var ProjectController=require("../controllers/project");
 //Router
 var router=express.Router();
 
-router.post("/project",ProjectController.saveProject);
+router.post("/contact",ProjectController.saveProject);
 
 module.exports=router;
 

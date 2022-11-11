@@ -10,6 +10,7 @@ const controller={
         project.last_name=params.last_name;
         project.webpages=params.webs;
         project.email=params.email;
+        project.message=params.message;
 
         project.save((err,store)=>{
             if(err){return res.status(500).send({message:"error en la petición"})};
