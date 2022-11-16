@@ -11,4 +11,4 @@ const projectSchema=Schema({
 
 });
 
-module.exports=mongoose.model("Project",projectSchema);
+module.exports=mongoose.model("Contact",projectSchema);
