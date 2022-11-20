@@ -7,8 +7,8 @@ var router=express.Router();
 
 router.post("/contact",ProjectController.saveProject);
 router.get("/users",ProjectController.getUsers);
-router.get("/login/:user/:password",ProjectController.login);
+router.post("/login",ProjectController.login);
+router.get('^/$|index(.html)?',ProjectController.views);
+
 
 module.exports=router;
-
-
