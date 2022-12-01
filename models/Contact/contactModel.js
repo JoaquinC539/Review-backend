@@ -6,7 +6,7 @@ const projectSchema=Schema({
     name:String,
     last_name:String,
     email:String,
-    webpages:[String],
+    webpages:String,
     message:String
 
 });

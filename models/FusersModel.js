@@ -9,4 +9,4 @@ const userSchema=Schema({
     email:String
 });
 
-module.exports=mongoose.model("User",userSchema)
+module.exports=mongoose.model("FUser",userSchema)
